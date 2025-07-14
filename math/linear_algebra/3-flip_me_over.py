@@ -3,6 +3,7 @@
 This module provides a function to compute the transpose of a matrix.
 """
 
+
 def matrix_transpose(matrix):
     """
     Computes the transpose of a 2D matrix.
