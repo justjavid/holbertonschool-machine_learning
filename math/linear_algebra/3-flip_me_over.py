@@ -17,13 +17,13 @@ def matrix_transpose(matrix):
 
     Returns:
         list of list of numbers: The transposed matrix.
-    
+
     """
     transpose = []
     for i in range(len(matrix[0])):
         transpose.append([])
     j = 0
-    while(len(transpose[len(transpose) - 1]) != len(matrix)):
+    while (len(transpose[len(transpose) - 1]) != len(matrix)):
         for i in range(len(matrix)):
             transpose[j].append(matrix[i][j])
         j += 1
