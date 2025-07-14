@@ -4,7 +4,7 @@ def matrix_shape(matrix):
     Returns the shape of a matrix as a list of integers.
 
     Args:
-        matrix (list): A list of lists (possibly nested) representing the matrix.
+        matrix (list): A list of lists representing the matrix.
 
     Returns:
         list: A list of integers representing the shape of the matrix.
