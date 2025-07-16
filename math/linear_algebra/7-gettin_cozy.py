@@ -18,7 +18,7 @@ def cat_matrices2D(mat1, mat2, axis=0):
     Returns:
         list of list or None: A new matrix representing the concatenation,
                               or None if the matrices cannot be concatenated
-                              along the specified axis due to dimension mismatch.
+                        along the specified axis due to dimension mismatch.
     """
     if axis == 0 and len(mat1[0]) != len(mat2[0]):
         return None
