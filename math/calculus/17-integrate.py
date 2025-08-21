@@ -6,4 +6,6 @@ def poly_integral(poly, C=0):
     poly.insert(0, C)
     for x in range(1, len(poly)):
         poly[x] = poly[x] / x
+        if int(poly[x]) == poly[x]:
+            poly[x] = int(poly[x])
     return poly
