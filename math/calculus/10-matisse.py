@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 def poly_derivative(poly):
     if not isinstance(poly, list) or \
     not all(isinstance(x, int) for x in poly):
