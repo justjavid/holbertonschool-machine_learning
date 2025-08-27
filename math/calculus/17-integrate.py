@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 def poly_integral(poly, C=0):
     if not isinstance(poly, list) or \
-    not all(isinstance(x, int) for x in poly) or poly == []:
+    not all(isinstance(x, int) for x in poly) or poly == [] or C == None:
         return None
     if poly == [0]:
         return [C]
@@ -11,5 +11,3 @@ def poly_integral(poly, C=0):
         if int(poly[x]) == poly[x]:
             poly[x] = int(poly[x])
     return poly
-
-print(poly_integral([5], None))
