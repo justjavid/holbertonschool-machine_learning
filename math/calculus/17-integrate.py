@@ -11,3 +11,5 @@ def poly_integral(poly, C=0):
         if int(poly[x]) == poly[x]:
             poly[x] = int(poly[x])
     return poly
+
+print(poly_integral([5], None))
